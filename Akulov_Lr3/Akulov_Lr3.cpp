@@ -8,6 +8,7 @@ int main()
 {
     setlocale(LC_ALL, "ru");
     srand(time(NULL));
+    cout << "Создание списка";
     int spisok[10];
     for (int i = 0; i < size(spisok); i++)
     {
